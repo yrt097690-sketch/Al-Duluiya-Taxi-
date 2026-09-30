@@ -81,4 +81,30 @@
     }
 </script>
 </body>
-</html>
+</html> taxi-app
+│
+├── admins
+│   └── admin001
+│       ├── name
+│       └── phone
+│
+├── drivers
+│   └── driver001
+│       ├── name
+│       ├── phone
+│       ├── carType
+│       ├── plateNumber
+│       ├── photo
+│       ├── available
+│       ├── latitude
+│       ├── longitude
+│       ├── city
+│       └── lastOnline
+│
+└── requests
+    └── request001
+        ├── customerId
+        ├── driverId
+        ├── pickup
+        ├── destination
+        └── status
